@@ -1,5 +1,25 @@
-# Finance Project Power BI 
-## Project Overview
+# Finance Project Power BI 🚀
+
+
+## Table of Contents 💻
+
+
+  -[Project Overview](#project-overview)
+
+  -[Dynamic Financial Dashboard](#Dynami-Financial-Dashboard) 
+
+  -[Tools](#Tools)
+
+  -[Dataset Description](#Dataset-Description)
+
+  -[Data Cleaning / Preparation](#DataCleaning-Preparation)
+
+  -[Exploratory Data Analysis](#ExploratoryDataAnalysis) 
+
+
+
+
+### Project Overview
 This project involves the creation of an interactive financial dashboard using a dataset that includes income, expenses, and savings data. The dashboard visualizes key financial metrics (KPIs) to help users understand their financial performance over time and make informed decisions.
 Features
 ### Dynamic Financial Dashboard:
@@ -8,8 +28,8 @@ KPIs: Includes crucial KPIs like revenue, profit margins, cash flow, and growth 
 Interactive Visualizations: Allows users to filter by date, transaction type (expenses, savings, income), and other key components.
 User-Friendly Interface: Easy to navigate and interpret the financial health of a company or individual.
 ### Tools : 
-- Excel - Data Cleaning (ETL) [Download here](https://
-- Power BI - Creating reports 
+- Excel - Data Cleaning (ETL) 
+- Power BI - Creating reports
 
 ## Dataset Description :
 Finance Data : the primary datast used for this analysis is the "Finance_data.csv" file , containing detailed information 
@@ -29,20 +49,7 @@ Liquid Cash
 Fixed Deposit
 Emergency Fund
 Mutual Funds
-Tools Used
-Power BI: For creating interactive dashboards and data visualization.
-Python: For data preprocessing and analysis.
-SQL: For data extraction and management.
-Installation
-Clone the repository:
-git clone https://github.com/your-username/financial-dashboard.git
-Install the required dependencies:
-If you are using Python, install the necessary libraries:
-bash
-Copier le code
-pip install -r requirements.txt
-Power BI file (.pbix) can be opened directly in Power BI Desktop.
-Usage
+### Usage
 Open the dataset in Power BI and explore the KPIs through interactive visualizations.
 Use filters to drill down into specific financial periods or transaction types.
 The dashboard can be modified to suit different financial scenarios.
@@ -50,8 +57,21 @@ Key Insights
 Track income and expenses over time.
 Analyze savings and investments in different categories such as Liquid Cash, Mutual Funds, etc.
 Identify trends in spending habits and income sources.
-Contributing
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions for improving the dashboard, adding features, or enhancing the analysis are welcome.
+
+### Data Cleaning / Preparation : 
+In the initial Data prepation phase , i performed the following tasks : 
+1. Data loading and inspection 
+2. Unpivote Other Columns expect type and componement 
+3. Handling missing Values 
+4. Data cleaning and formating
+   
+### Exploratory Data Analysis : 
+- How are variables like income, expenses, and savings related?
+- How does actual performance compare to planned or target values (e.g., income vs. target, savings vs. target)?
+- What is the overall Income , Expenses , Saving trend ? 
+
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions for improving the dashboard, adding features, or enhancing the analysis are welcome 😃
+
 
 License
 This project is licensed under the MIT License – see the LICENSE file for details.
