@@ -6,7 +6,7 @@
 
   -[Project Overview](#project-overview)
 
-  -[Dynamic Financial Dashboard](#Dynami-Financial-Dashboard) 
+  -[DynamicFinancialDashboard](#DynamiFinancialDashboard) 
 
   -[Tools](#Tools)
 
